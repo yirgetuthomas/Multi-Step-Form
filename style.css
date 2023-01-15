@@ -3,6 +3,27 @@
     padding: 0;
     font-family: sans-serif;
 }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
 .main {
     display: flex;
     /* width: 100%;
@@ -41,6 +62,9 @@
 #section2 {
     left: 700px;
 }
+#section3 {
+    left : -700px;
+}
 .menu-child {
     /* display: grid; */
     width: 150px;
@@ -68,6 +92,21 @@
     margin-top: 40px;
     margin-bottom: 220px;
   }
+  .frm3 {
+    margin-top: 40px;
+    margin-bottom: 220px;
+  }
+  .frm3 > .card-item {
+    display: block;
+    width: 200px;
+    height: 100px;
+  }
+  .frm3 > .card-item > .card {
+    width: 400px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   input {
     width: 100%;
     padding: 10px 5px;
@@ -80,10 +119,19 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .btn-box {
+  .btn-box1 {
     width: 100%;
     margin: 30px auto;
     text-align: center;
+    display: flex;
+    justify-content: end;
+  }
+  .btn-box {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
   button {
     width: 100px;

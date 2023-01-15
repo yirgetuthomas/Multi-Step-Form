@@ -1,100 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-   <div class="main">
-    <div class="main-left">
+  </head>
+  <body>
+    <div class="main">
+      <aside class="main-left">
         <div class="menu">
-            <div class="circle">1</div>
-            <div class="menu-child">
-                <span>STEP 1</span>
-                <h4>YOUR INFO</h4>
-            </div>
+          <div class="circle">1</div>
+          <div class="menu-child">
+            <span>STEP 1</span>
+            <h4>YOUR INFO</h4>
+          </div>
         </div>
         <div class="menu">
-            <div class="circle">2</div>
-            <div class="menu-child">
-                <span>STEP 2</span>
-                <h4>SELECT PLAN</h4>
-            </div>
-            
+          <div class="circle">2</div>
+          <div class="menu-child">
+            <span>STEP 2</span>
+            <h4>SELECT PLAN</h4>
+          </div>
         </div>
         <div class="menu">
-            <div class="circle">3</div>
-            <div class="menu-child">
-                <span>STEP 3</span>
-                <h4>ADD-ONS</h4>
-            </div>
-            
+          <div class="circle">3</div>
+          <div class="menu-child">
+            <span>STEP 3</span>
+            <h4>ADD-ONS</h4>
+          </div>
         </div>
         <div class="menu">
-            <div class="circle">4</div>
-            <div class="menu-child">
-                <span>STEP 4</span>
-                <h4>SUMMARY</h4>
-            </div>
-            
+          <div class="circle">4</div>
+          <div class="menu-child">
+            <span>STEP 4</span>
+            <h4>SUMMARY</h4>
+          </div>
         </div>
-    
-    </div>
-    <div class="container">
-       
+      </aside>
+      <div class="container">
         <div id="section1" class="section">
-            <div id="frm-title">
-                <h4>Personal info</h4>
-                <p>please provide your name, email address and phone number</p>
-            </div>
-            <div class="frm1">
-                
-                    <label for="">Name</label>
-                    <input type="text" placeholder="name">
-                    <label for="">Email Address</label>
-                    <input type="text" placeholder="email address">
-                    <label for="">Phone Number</label>
-                    <input type="text" placeholder="e.g. +1 123 456 789">
-               
-            </div>
-            <div class="btn-box">
-               <button type="button" id="next1">Next Step</button>
-            </div>
+          <div id="frm-title">
+            <h4>Personal info</h4>
+            <p>please provide your name, email address and phone number</p>
+          </div>
+          <div class="frm1">
+            <label for="">Name</label>
+            <input type="text" placeholder="name" />
+            <label for="">Email Address</label>
+            <input type="text" placeholder="email address" />
+            <label for="">Phone Number</label>
+            <input type="text" placeholder="e.g. +1 123 456 789" />
+          </div>
+          <div class="btn-box1">
+            <button type="button" id="next1">Next Step</button>
+          </div>
         </div>
         <div id="section2" class="section">
-            <div id="frm-title2">
-                <h4>Select Your Plan</h4>
-                <p>you have the option of monthly or yearly billing</p>
+          <div id="frm-title2">
+            <h4>Select Your Plan</h4>
+            <p>you have the option of monthly or yearly billing</p>
+          </div>
+          <div class="frm2">
+            <div class="card-item">
+              <div class="card">
+                <div class="icon"></div>
+                <p>Arcade</p>
+              </div>
+              <div class="card">
+                <div class="fa f"></div>
+                <p>Advanced</p>
+              </div>
+              <div class="card">
+                <div class="fa f"></div>
+                <p>Pro</p>
+              </div>
             </div>
-            <div class="frm2">
-                <div class="card-item">
-                    <div class="card">
-                        <i class="fa f"></i>
-                        <p>Arcade</p> 
-                    </div>
-                    <div class="card">
-                        <i class="fa f"></i>
-                        <p>Advanced</p> 
-                    </div>
-                    <div class="card">
-                        <i class="fa f"></i>
-                        <p>Pro</p> 
-                    </div>
-                </div>
-                <div class="tgl"></div>
-            </div>
-            <div class="btn-box">
-                <button type="button" id="back1">Go Back</button>
-               <button type="button" id="next2">Next Step</button>
-            </div>
+            <div class="tgl"></div>
+          </div>
+          <div class="btn-box">
+            <button type="button" id="back1">Go Back</button>
+            <button type="button" id="next2">Next Step</button>
+          </div>
         </div>
-          
+        <div id="section3" class="section">
+          <div id="frm-title2">
+            <h4>Pick add-ons</h4>
+            <p>add-ns help enhance your gaming experience</p>
+          </div>
+          <div class="frm3">
+            <div class="card-item">
+              <div class="card">
+                <div class="fa f"></div>
+                <p>Online service</p>
+              </div>
+              <div class="card">
+                <i class="fa f"></i>
+                <p>Larger storage</p>
+              </div>
+              <div class="card">
+                <i class="fa f"></i>
+                <p>Customizable Profile</p>
+              </div>
+            </div>
+            <div class="tgl"></div>
+          </div>
+          <div class="btn-box">
+            <button type="button" id="back2">Go Back</button>
+            <button type="button" id="next3">Next Step</button>
+          </div>
+        </div>
+      </div>
     </div>
-   </div>
-    
-</body>
+  </body>
 </html>
