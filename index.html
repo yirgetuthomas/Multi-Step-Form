@@ -11,34 +11,34 @@
 </head>
 
 <body>
-  <div class="main">
+  <main class="main">
     <aside class="sidenav-wrapper">
       <nav class="sidenav">
         <ul class="sidenav-list">
           <li class="sidenav-list-item">
             <div class="circle" id="circle1">1</div>
-            <div class="menu-child">
+            <div class="sidenav-list-item-right">
               <span>STEP 1</span>
               <h4>YOUR INFO</h4>
             </div>
           </li>
           <li class="sidenav-list-item">
             <div class="circle" id="circle2">2</div>
-            <div class="menu-child">
+            <div class="sidenav-list-item-right">
               <span>STEP 2</span>
               <h4>SELECT PLAN</h4>
             </div>
           </li>
           <li class="sidenav-list-item">
             <div class="circle" id="circle3">3</div>
-            <div class="menu-child">
+            <div class="sidenav-list-item-right">
               <span>STEP 3</span>
               <h4>ADD-ONS</h4>
             </div>
           </li>
           <li class="sidenav-list-item">
             <div class="circle" id="circle4">4</div>
-            <div class="menu-child">
+            <div class="sidenav-list-item-right">
               <span>STEP 4</span>
               <h4>SUMMARY</h4>
             </div>
@@ -47,12 +47,12 @@
       </nav>
     </aside>
     <div class="container">
-      <div id="section1" class="section">
-        <div id="frm-title">
+      <div id="container-personalinfo" class="section">
+        <div id="container-personalinfo-title">
           <h4>Personal info</h4>
           <p>please provide your name, email address and phone number</p>
         </div>
-        <div class="frm1">
+        <div class="container-personalinfo-frm">
           <label for="name">Name</label>
           <input type="text" placeholder="name" id="name" />
           <label for="email">Email Address</label>
@@ -67,13 +67,13 @@
           <button type="button" id="next1">Next Step</button>
         </div>
       </div>
-      <div id="section2" class="section">
-        <div id="frm-title2">
+      <div id="container-selectplan" class="section">
+        <div id="fcontainer-selectplan-title">
           <h4>Select Your Plan</h4>
           <p>you have the option of monthly or yearly billing</p>
         </div>
-        <div class="frm2">
-          <div class="card-item">
+        <div class="container-selectplan-frm">
+          <div class="card-container">
             <div class="card">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                 <g fill="none" fill-rule="evenodd">
@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="frm2-toggle">
+        <div class="container-selectplan-frm-toggle">
           <p>Monthly</p>
           <label class="switch">
             <input type="checkbox">
@@ -128,32 +128,32 @@
           <button type="button" id="next2">Next Step</button>
         </div>
       </div>
-      <div id="section3" class="section">
-        <div id="frm-title3">
+      <div id="container-pickaddons" class="section">
+        <div id="container-pickaddons-title">
           <h4>Pick add-ons</h4>
           <p>add-ns help enhance your gaming experience</p>
         </div>
-        <div class="frm3">
-          <div class="card-item3">
-            <div class="card3">
+        <div class="container-pickaddons-frm">
+          <div class="card-container-pickaddons">
+            <div class="card-container-pickaddons-card">
               <input type="checkbox" class="frm3-checkbox">
-              <div class="icon3">
+              <div class="card-container-pickaddons-card-icon">
                 <p>Online service</p>
                 <p>Access to multiple layer games</p>
               </div>
               <p>$9/mon</p>
             </div>
-            <div class="card3">
+            <div class="card-container-pickaddons-card">
               <input type="checkbox" class="frm3-checkbox">
-              <div class="icon3">
+              <div class="card-container-pickaddons-card-icon">
                 <p>Larger Storage</p>
                 <p>Access to multiple layer games</p>
               </div>
               <p>$9/mon</p>
             </div>
-            <div class="card3">
+            <div class="card-container-pickaddons-card">
               <input type="checkbox" class="frm3-checkbox">
-              <div class="icon3">
+              <div class="card-container-pickaddons-card-icon">
                 <p>Cutomizable Profile</p>
                 <p>Access to multiple layer games</p>
               </div>
@@ -166,14 +166,14 @@
           <button type="button" id="next3">Next Step</button>
         </div>
       </div>
-      <div id="section4" class="section">
-        <div id="frm-title4">
+      <div id="container-finish" class="section">
+        <div id="container-finish-title">
           <h4>Finishing up</h4>
           <p>double check everything looks ok</p>
         </div>
-        <div class="frm4">
-          <div class="card-item4">
-            <div class="frm4-listitem">
+        <div class="container-finish-frm">
+          <div class="card-container-finish">
+            <div class="card-container-finish-item">
               <div>
                 <div class="">Arcade(Monthly)</div>
                 <a href="#">Change</a>
@@ -181,16 +181,16 @@
               <p>$9/m</p>
             </div>
             <hr>
-            <div class="frm4-listitem">
+            <div class="card-container-finish-item">
               <div class="">Online Service</div>
               <p>$1/m</p>
             </div>
-            <div class="frm4-listitem">
+            <div class="card-container-finish-item">
               <div class="">Larger Storage</div>
               <p>$2/m</p>
             </div>
           </div>
-          <div class="frm4-listitem">
+          <div class="card-container-finish-item">
             <div class="tgl">Total</div>
             <div class="tgl">$12/m</div>
           </div>
@@ -201,7 +201,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </body>
 
 </html>

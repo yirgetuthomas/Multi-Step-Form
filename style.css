@@ -1,257 +1,311 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-  html, body {
-    height: 100%;
-  }
+html,
+body {
+  height: 100%;
+}
 
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    font-family: sans-serif;
-  }
-  
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  input, button, textarea, select {
-    font: inherit;
-  }
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  a {
-    text-decoration: none;
-  }
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main content */
 .main {
-    display: flex;
-    width: 100%;
-    height: 100px;
-    /* grid-template-columns: 1fr 1fr;
-    grid-gap: 100px; */
-    /* width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    margin: -50px 0 0 -50px; */
+  display: flex;
+  width: 100%;
 }
+/* side navigation part */
 .sidenav-wrapper {
-    /* width: 200px; */
-    background-color: #6259FF;
-    height: 500px;
-    margin: 100px; 
-   }
-.container {
-    width: 600px;
-    height: 500px;
-    margin-top: 50px;
-    background: #fff;
-    border-radius: 5px;
-    position: relative;
-    /* overflow: hidden; */
+  /* width: 200px; */
+  background-color: #6259FF;
+  height: 500px;
+  margin: 100px;
 }
-.section {
-    /* width: 90%; */
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    /* transition: 0.5s; */
-}
-#section2 {
-    display: none;
-}
-#section3 {
-  display: none;
-}
-#section4 {
-  display: none;
-}
-.menu-child {
+
+.sidenav-list-item-right {
   /* display: grid; */
   width: 150px;
   margin: 4px;
   color: #fff;
 }
-.menu-child > span {
+
+.sidenav-list-item-right>span {
   color: #ccc;
 }
+
 .circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    text-align: center;
-    font: 18px Arial, sans-serif;
-    border: 2px solid #000;
-    padding: 8px;
-    margin: 5px;
-    color: #fff;
-    border-color: #fff;
-  }
-  #circle1 {
-    background: lightblue;
-    color: #000;
-  }
-  .sidenav-list-item {
-    display: flex;
-    margin: 10px;
-  }
-  .frm1 {
-    margin-top: 40px;
-    /* margin-bottom: 95px; */
-    width: 100%;
-    /* height: 200px; */
-  }
-  .frm2 {
-    margin-top: 40px;
-    width: 100%;
-    /* margin-bottom: 220px; */
-  }
-  .frm3 {
-    margin-top: 40px;
-    width: 100%;
-    /* margin-bottom: 220px; */
-  }
-  .frm4 {
-    margin-top: 40px;
-    width: 100%;
-  }
-  .card-item4 {
-    height: 250px;
-    margin: 10px 0;
-    background-color: lavender;
-    border-radius: 5px;
-  }
-  .card-item3 {
-    display: block;
-    width: 100%;
-    height: 300px;
-    margin: 5px;
-  }
-  .card3 {
-    width: 550px;
-    height: 95px;
-    margin-top: 10px;
-    margin-right: 15px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    display: flex;
-  }
-  .icon3 {
-    margin: 20px 120px 20px 20px;
-  }
-  .card3 > p {
-    margin-top: 30px;
-  }
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font: 18px Arial, sans-serif;
+  border: 2px solid #000;
+  padding: 8px;
+  margin: 5px;
+  color: #fff;
+  border-color: #fff;
+}
 
-  .frm3-checkbox {
-    width: 30px;
-    height: 30px;
-    margin: 30px;
-  }
-  .frm3-checkbox:hover {
-    cursor: pointer;
-  }
-  .frm4-listitem {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 20px;
-    width: 550px;
-  }
-  input {
-    width: 100%;
-    padding: 10px 5px ;
-    margin: 15px 0;
-    /* border-bottom: 1px solid #999; */
-    outline: none;
-    background: transparent;
-  }
-  h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .btn-box1 {
-    width: 100%;
-    margin: 30px auto;
-    text-align: center;
-    display: flex;
-    justify-content: end;
-  }
-  .btn-box {
-    width: 100%;
-    margin: 30px auto;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-  }
-  button {
-    width: 100px;
-    height: 35px;
-    margin: 0 10px;
-    border-radius: 10px;
-    border: 0;
-    outline: none;
-    color: #000;
-    cursor: pointer;
-    background: transparent;
+#circle1 {
+  background: lightblue;
+  color: #000;
+}
 
-  }
-  button:hover {
-    background: darkblue;
-    color: #fff;
-  }
-  .card {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    margin-top: 10px;
-    width: 200px;
-    margin-right: 15px;
-    display:grid;
-    justify-content: space-between;
-    cursor: pointer;
-  }
-  .card-item {
-    display: flex;
-    margin: 5px;
-    width: 100%;
-    height: 220px;
-    justify-content: space-between;
-  }
-  .card:hover {
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-  }
-  .phone-required {
-    display: flex;
-    justify-content: space-between;
-  }
-  .phone-required > p{
-    color: red;
-    display: none;
-  }
-  .card > svg {
-   margin: 20px 0px 60px 20px; 
-   
-  }
- .card-item-bottom {
-  margin: 0px 0px 10px 20px; 
- }
- .frm2-toggle {
+.sidenav-list-item {
+  display: flex;
+  margin: 10px;
+}
+
+/* form section part */
+.container {
+  width: 600px;
+  height: 500px;
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.section {
+  /* width: 90%; */
+  position: relative;
+  top: 50px;
+  left: 40px;
+  /* transition: 0.5s; */
+}
+
+.btn-box {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  color: #000;
+  cursor: pointer;
+  background: transparent;
+
+}
+
+button:hover {
+  background: darkblue;
+  color: #fff;
+}
+
+/* first form section */
+input {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 15px 0;
+  /* border-bottom: 1px solid #999; */
+  outline: none;
+  background: transparent;
+}
+
+.container-personalinfo-frm {
+  margin-top: 40px;
+  /* margin-bottom: 95px; */
+  width: 100%;
+  /* height: 200px; */
+}
+
+.btn-box1 {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+  display: flex;
+  justify-content: end;
+}
+
+.phone-required {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-required>p {
+  color: red;
+  display: none;
+}
+
+/* second form section */
+
+#container-selectplan {
+  display: none;
+}
+
+.container-selectplan-frm {
+  margin-top: 40px;
+  width: 100%;
+  /* margin-bottom: 220px; */
+}
+
+.container-selectplan-frm-toggle {
   display: flex;
   justify-content: center;
   background-color: lavender;
   margin: 30px 0px;
   height: 60px;
   border-radius: 5px;
- }
- .frm2-toggle > p {
-  margin: 15px;
- }
+}
 
- /* toggle */
- .switch {
+.container-selectplan-frm-toggle>p {
+  margin: 15px;
+}
+
+.card-container {
+  display: flex;
+  gap: 15px;
+  margin: 5px;
+  width: 100%;
+  height: 220px;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 10px;
+  width: 200px;
+  /* margin-right: 15px; */
+  display: grid;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .card > svg {
+   margin: 20px 0px 60px 20px; 
+   
+  }
+ .card-item-bottom {
+  margin: 0px 0px 10px 20px; 
+ } */
+
+/* third form section */
+#container-pickaddons {
+  display: none;
+}
+
+.container-pickaddons-frm {
+  margin-top: 40px;
+  width: 100%;
+  /* margin-bottom: 220px; */
+}
+
+.card-container-pickaddons {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: 5px;
+}
+
+.card-container-pickaddons-card {
+  width: 550px;
+  height: 95px;
+  margin-top: 10px;
+  margin-right: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+}
+
+.card-container-pickaddons-card-icon {
+  margin: 20px 120px 20px 20px;
+}
+
+.card-container-pickaddons-card>p {
+  margin-top: 30px;
+}
+
+.frm3-checkbox {
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+}
+
+.frm3-checkbox:hover {
+  cursor: pointer;
+}
+
+/* forth form section */
+#container-finish {
+  display: none;
+}
+
+.container-finish-frm {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.card-container-finish {
+  height: 250px;
+  margin: 10px 0;
+  background-color: lavender;
+  border-radius: 5px;
+}
+
+.card-container-finish-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  width: 550px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* toggle */
+.switch {
   position: relative;
   display: inline-block;
   width: 70px;
@@ -259,7 +313,7 @@
   margin: 10px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -289,15 +343,15 @@
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
